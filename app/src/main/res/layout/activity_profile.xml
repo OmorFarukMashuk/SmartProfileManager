@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.smartprofile.mashuk.smartprofilemanager.ProfileActivity">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Smart Profile Manager"
+    android:textSize="@dimen/label_text"
+    android:fontFamily="sans-serif-smallcaps"
+    android:id="@+id/ProfileTextView"
+    />
+
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Start Service"
+    android:textSize="@dimen/button_text"
+    android:fontFamily="casual"
+    android:id="@+id/button"
+    android:onClick="startMethod"
+
+    />
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Stop Service"
+    android:textSize="@dimen/button_text"
+    android:fontFamily="casual"
+    android:id="@+id/button2"
+    android:onClick="stopMethod"
+    />
+
+</LinearLayout>
+
