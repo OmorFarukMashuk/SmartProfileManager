@@ -1,0 +1,2 @@
+# SmartProfileManager
+It’s an audio profile changing android application based on the Light Sensor, Proximity Sensor and Accelerometer values of the device. Audio Manager Class was used to create distinct profiles and based on surrounding object, room light intensity and position of the mobile (ex. Face up) profile switches. A separate service was used so that users don’t need to run the app repeatedly for profile change.
